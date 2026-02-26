@@ -289,8 +289,8 @@
       const rect = canvas.getBoundingClientRect();
       const x = ev.clientX - rect.left;
       const y = ev.clientY - rect.top;
-      const cellW = canvas.width / COLS;
-      const cellH = canvas.height / ROWS;
+      const cellW = rect.width / COLS;
+      const cellH = rect.height / ROWS;
       const c = Math.floor(x / cellW);
       const r = Math.floor(y / cellH);
       if (r < 0 || r >= ROWS || c < 0 || c >= COLS) return null;
@@ -567,3 +567,4 @@
   </script>
 </body>
 </html>
+

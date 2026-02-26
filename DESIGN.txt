@@ -1,0 +1,14 @@
+The program should allow the user to create a maze and then have the computer solve the maze
+The window for the maze should start out completely filled in with black squares
+The user drills a path by using the mouse or on an iPad use their fingers
+The user should be able to select the start and finish squares
+There should be a button to direct the computer to start solving the maze
+There should be a slow animation of the search for a solution
+When a solution has been found the solution path should be drawn
+There should be a button to fill in the maze, and start over.
+
+The technical requirements are as follows
+1. The program should consist of a single HTML file that contains all CSS and JavaScript code.
+2. Sounds and graphics should be stored in the HTML file as well
+3. The single file will be hosted in GitHub.io (I will put it there. You don't need to.)
+
